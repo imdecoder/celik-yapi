@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.3333333333em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: " ";
+}
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}/*# sourceMappingURL=flag-icon-base.css.map */

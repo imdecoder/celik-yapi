@@ -1,0 +1,39 @@
+{
+	"name": "akinciarts/php",
+	"description": "Akıncı Arts / PHP Framework",
+	"authors": [
+		{
+			"name": "eminarif",
+			"email": "coderwax@gmail.com"
+		},
+		{
+			"name": "bedirhan",
+			"email": "bedrhncelk@hotmail.com"
+		}
+	],
+	"require": {
+		"izniburak/router": "^2.5",
+		"jenssegers/blade": "^1.4",
+		"vlucas/valitron": "^1.4",
+		"filp/whoops": "^2.14",
+		"arrilot/dotenv-php": "^2.0",
+		"nesbot/carbon": "^2.59",
+		"aura/session": "^2.1",
+		"verot/class.upload.php": "^2.1",
+		"phpmailer/phpmailer": "^6.6",
+		"ausi/slug-generator": "^1.1",
+		"laravie/parser": "^2.3",
+		"guzzlehttp/guzzle": "^7.8",
+		"aspera/xlsx-reader": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "./app",
+			"Core\\": "./core"
+		},
+		"files": [
+			"./app/Helper.php",
+			"./core/Helper.php"
+		]
+	}
+}
