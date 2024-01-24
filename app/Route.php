@@ -36,6 +36,18 @@ $app->router->any('/urun/:slug', 'Client.Products@detail');
 $app->router->get('/kategoriler', 'Client.Categories@index');
 $app->router->any('/kategori/:slug', 'Client.Categories@list');
 
+$app->router->get('/sepet', 'Client.Cart@index');
+
+$app->router->group('/odeme', function ($router) {
+	$router->any('/', 'Client.Payment@index');
+
+	$router->post('/paytr', 'Client.Payment@paytr');
+	$router->post('/bildirim', 'Client.Payment@notice');
+
+	$router->get('/basarili', 'Client.Payment@success');
+	$router->get('/hata', 'Client.Payment@error');
+});
+
 $app->router->any('/iletisim', 'Client.Contact@index');
 
 /**

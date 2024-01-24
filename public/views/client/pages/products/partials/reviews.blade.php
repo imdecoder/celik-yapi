@@ -1,5 +1,9 @@
 <div class="tab-pane fade in" id="review">
-	<ul class="review-content">
+	<p class="text-center">
+		Yorum bulunamadı.
+	</p>
+
+	<!--<ul class="review-content">
 		<li class="element-review">
 			<p class="r-name">
 				Ad Soyad
@@ -18,8 +22,10 @@
 				Yorum içeriği buraya gelecek.
 			</p>
 		</li>
-	</ul>
-	<div class="review-form">
+	</ul>-->
+
+	<!--<div class="review-form">
+		
 		<h3 class="review-heading">
 			Puanınız
 		</h3>
@@ -54,5 +60,6 @@
 				</button>
 			</div>
 		</form>
-	</div>
+	</div>-->
+
 </div>

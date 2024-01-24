@@ -8,5 +8,8 @@ return [
 	'LOCALE' => 'tr_TR',
 	'DEVELOPMENT' => true,
 	'BASE_URL' => '',
-	'BASE_FOLDER' => ''
+	'BASE_FOLDER' => '',
+	'PAYTR_MERCHANT_ID' => '',
+	'PAYTR_MERCHANT_KEY' => '',
+	'PAYTR_MERCHANT_SALT' => ''
 ];

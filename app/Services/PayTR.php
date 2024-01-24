@@ -4,12 +4,16 @@ namespace App\Services;
 
 class PayTR
 {
-	public string $redirect_uri;
-	public string $scope;
+	public $merchant_id;
+
+	public $merchant_key;
+
+	public $merchant_salt;
 
 	public function __construct()
 	{
-		/*$this->redirect_uri = site_url('account/discord');
-		$this->scope = urlencode('identify guilds guilds.members.read');*/
+		$this->merchant_id = config('PAYTR_MERCHANT_ID');
+		$this->merchant_key = config('PAYTR_MERCHANT_KEY');
+		$this->merchant_salt = config('PAYTR_MERCHANT_SALT');
 	}
 }

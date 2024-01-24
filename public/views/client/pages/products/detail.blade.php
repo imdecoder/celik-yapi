@@ -30,11 +30,8 @@
 			@include('client.pages.products.partials.tabs')
 
 			<div class="tab-content">
-				<div class="tab-pane fade in active" id="desc">
-					<div class="content-desc text-center">
-						{!! $product->content ? $product->content : '<p>Eklenmemiş.</p>' !!}
-					</div>
-				</div>
+				
+				@include('client.pages.products.partials.content')
 
 				@include('client.pages.products.partials.reviews')
 

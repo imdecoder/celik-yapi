@@ -139,8 +139,7 @@ class Product extends Api
 		{
 			$rules = [
 				'required' => [
-					'action',
-					'code'
+					'action'
 				]
 			];
 
@@ -151,8 +150,8 @@ class Product extends Api
 				$data = $this->validator->data();
 
 				$action = $data['action'];
-				$code = $data['code'];
-				$qty = $data['qty'] ? (int) $data['qty'] : 1;
+				$code = isset($data['code']) ? $data['code'] : null;
+				$qty = isset($data['qty']) ? (int) $data['qty'] : 1;
 
 				switch ($action)
 				{
