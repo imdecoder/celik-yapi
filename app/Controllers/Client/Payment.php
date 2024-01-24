@@ -21,6 +21,7 @@ class Payment extends Client
 		$this->data['meta']['description'] = null;
 
 		$data = [];
+		$cart = [];
 
 		if (isset($_SESSION['cart']))
 		{
