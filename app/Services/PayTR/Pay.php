@@ -76,20 +76,11 @@ class Pay extends PayTR
 		$this->max_installment = 0;
 
 		$this->currency = 'TL';
-
-		/*$this->payment_amount = 100;
-		$this->merchant_oid = 'IWpBzKPjtc0';
-		$this->email = 'eminarifpirinc@gmail.com';
-		$this->user_name = 'Emin Arif Pirinç';
-		$this->user_phone = '05458524955';
-		$this->user_address = 'Körfez Mh.';*/
-
-		$this->token = $this->token();
 	}
 
 	public function token()
 	{
-		$data = null;
+		$token = null;
 
 		$hash_str = $this->merchant_id . $this->user_ip . $this->merchant_oid . $this->email . $this->payment_amount . $this->user_basket . $this->no_installment . $this->max_installment . $this->currency . $this->test_mode;
 		$paytr_token = base64_encode(hash_hmac('sha256', $hash_str . $this->merchant_salt, $this->merchant_key, true));
@@ -140,14 +131,14 @@ class Pay extends PayTR
 
 		if ($result['status'] == 'success')
         {
-			$data = $result['token'];
+			$token = $result['token'];
 		}
     	else
         {
 			die('PAYTR IFRAME failed. reason:' . $result['reason']);
 		}
 
-		return $data;
+		$this->token = $token;
 	}
 
 	public function user_basket()
