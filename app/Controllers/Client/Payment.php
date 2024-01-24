@@ -75,6 +75,11 @@ class Payment extends Client
 			$cart['subtotal'] = turkishLira($subtotal + $shipping_cost);
 			$cart['total'] = turkishLira($subtotal + $shipping_cost);
 		}
+		else
+		{
+			header('Location: ' . site_url('sepet'));
+			exit;
+		}
 
 		$this->data['products'] = $data;
 		$this->data['cart'] = (object) $cart;
