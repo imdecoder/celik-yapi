@@ -56,7 +56,7 @@ class Pay extends PayTR
 
 		## Sunucuda çalıştırmıyorsanız buraya dış ip adresinizi yazmalısınız.
 		## Aksi halde geçersiz "paytr_token" hatası alırsınız.
-		$this->user_ip = '78.188.237.22';
+		$this->user_ip = $this->user_ip();
 
 		## İşlem zaman aşımı süresi - dakika cinsinden.
 		$this->timeout_limit = '30';
@@ -78,11 +78,8 @@ class Pay extends PayTR
 		$this->currency = 'TL';
 
 		$this->payment_amount = 100;
-
 		$this->merchant_oid = 'IWpBzKPjtc0';
-
 		$this->email = 'eminarifpirinc@gmail.com';
-
 		$this->user_name = 'Emin Arif Pirinç';
 		$this->user_phone = '05458524955';
 		$this->user_address = 'Körfez Mh.';

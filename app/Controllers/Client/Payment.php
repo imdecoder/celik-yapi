@@ -4,8 +4,9 @@ namespace App\Controllers\Client;
 
 use App\Controllers\Client;
 use App\Services\PayTR\Pay;
-use PDO;
+use App\Services\PayTR\Order;
 use Symfony\Component\HttpFoundation\Request;
+use PDO;
 
 class Payment extends Client
 {
@@ -125,6 +126,17 @@ class Payment extends Client
 
 	public function notice()
 	{
-		echo 'bilgiendirme sayfası';
+		$order = new Order();
+	    $order->status();
+	}
+
+	public function success()
+	{
+	    echo 'başarılı!';
+	}
+	
+	public function error()
+	{
+	    echo 'başarısız!';
 	}
 }
