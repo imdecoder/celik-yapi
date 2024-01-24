@@ -10,9 +10,16 @@ use PDO;
 
 class Payment extends Client
 {
+	public $cart;
+
 	public function __construct()
 	{
 		parent::__construct();
+
+		if (isset($_SESSION['cart']))
+		{
+			$this->cart = $_SESSION['cart'];
+		}
 	}
 
 	public function index()
@@ -21,15 +28,16 @@ class Payment extends Client
 		$this->data['meta']['description'] = null;
 
 		$data = [];
-		$cart = [
+
+		$basket = [
 			'shipping_cost' => null,
 			'subtotal' => null,
 			'total' => null
 		];
 
-		if (isset($_SESSION['cart']))
+		if ($this->cart)
 		{
-			$cart = $_SESSION['cart'];
+			$cart = $this->cart;
 
 			$subtotal = 0;
 
@@ -71,9 +79,9 @@ class Payment extends Client
 
 			$shipping_cost = 5.0;
 
-			$cart['shipping_cost'] = turkishLira($shipping_cost);
-			$cart['subtotal'] = turkishLira($subtotal + $shipping_cost);
-			$cart['total'] = turkishLira($subtotal + $shipping_cost);
+			$basket['shipping_cost'] = turkishLira($shipping_cost);
+			$basket['subtotal'] = turkishLira($subtotal + $shipping_cost);
+			$basket['total'] = turkishLira($subtotal + $shipping_cost);
 		}
 		else
 		{
@@ -82,7 +90,7 @@ class Payment extends Client
 		}
 
 		$this->data['products'] = $data;
-		$this->data['cart'] = (object) $cart;
+		$this->data['cart'] = (object) $basket;
 
 		return $this->view('client.pages.payment.index', $this->data);
 	}
@@ -120,6 +128,8 @@ class Payment extends Client
 
 				$pay = new Pay();
 
+				$pay->merchant_oid = 'IWpBzKPjtc0';
+				$pay->payment_amount = 100;
 				$pay->user_name = $firstname . ' ' . $lastname;
 				$pay->email = $email;
 				$pay->user_phone = $phone;

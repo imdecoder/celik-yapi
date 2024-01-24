@@ -63,7 +63,7 @@ class Pay extends PayTR
 
 		## Hata mesajlarının ekrana basılması için entegrasyon ve test sürecinde "1" olarak bırakın.
 		## Daha sonra "0" yapabilirsiniz.
-		$this->debug_on = 1;
+		$this->debug_on = 1; // TODO: "0" yapılacak!
 
 		## Mağaza canlı modda iken test işlem yapmak için "1" olarak gönderilebilir.
 		$this->test_mode = 0;
@@ -77,12 +77,12 @@ class Pay extends PayTR
 
 		$this->currency = 'TL';
 
-		$this->payment_amount = 100;
+		/*$this->payment_amount = 100;
 		$this->merchant_oid = 'IWpBzKPjtc0';
 		$this->email = 'eminarifpirinc@gmail.com';
 		$this->user_name = 'Emin Arif Pirinç';
 		$this->user_phone = '05458524955';
-		$this->user_address = 'Körfez Mh.';
+		$this->user_address = 'Körfez Mh.';*/
 
 		$this->token = $this->token();
 	}
