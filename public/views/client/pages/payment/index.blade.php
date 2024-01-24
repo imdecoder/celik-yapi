@@ -23,18 +23,28 @@
 					<div class="col-md-7 col-sm-7">
 						<div class="form-name">
 							<div class="content">
-								<h5>Returning Custumer? <span style="text-transform: uppercase;"> click<a href="#" style="color:#333; text-decoration:underline"> here </a>to login</span></h5>
-								<h5>Have a coupon?<span style="text-transform: uppercase;"> click <a href="#" style="color:#333; text-decoration:underline"> here</a> to enter your code</span></h5>
+								<h5>
+									Zaten bir hesabınız var mı?
+									<a href="{{ site_url('hesabim/giris-yap') }}" style="color: #333; text-decoration: underline">
+										Giriş Yap
+									</a>
+								</h5>
+								<h5>
+									Henüz bir hesabınız yok mu?
+									<a href="{{ site_url('hesabim/kayit-ol') }}" style="color: #333; text-decoration: underline">
+										Kayıt Ol
+									</a>
+								</h5>
 							</div>
 							<div class="billing">
-								<h2 style="font-size: 26px; padding-bottom: 20px; font-weight: bold">
+								<h2 style="font-size: 26px; font-weight: bold; padding-bottom: 20px">
 									Teslimat Bilgileri
 								</h2>
 								<div class="row">
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											Ad
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<input type="text" name="firstname" required class="country">
@@ -42,7 +52,7 @@
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											Soyad
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<input type="text" name="lastname" required class="country">
@@ -52,7 +62,7 @@
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											E-posta Adresi
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<input type="text" name="email" required class="country">
@@ -60,7 +70,7 @@
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											Telefon Numarası
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<input type="text" name="phone" required class="district">
@@ -70,7 +80,7 @@
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											İl
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<select name="city" class="district">
@@ -82,7 +92,7 @@
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											İlçe
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<select name="district" class="district">
@@ -96,14 +106,14 @@
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											Adres
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<input type="text" name="address" required class="district">
 									</div>
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											Posta Kodu
-											<span style="color:#f33">*</span>
+											<span style="color: #f33">*</span>
 										</label>
 										<br>
 										<input type="text" name="zip_code"  class="country">
@@ -111,12 +121,12 @@
 								</div>
 								<input type="checkbox" name="customer" id="customer">
 								<label for="customer">
-									<span style="color: #333;font-size:13px">
-										Yeni hesap oluştur
+									<span style="color: #333; font-size: 13px; text-transform: unset">
+										Yeni bir hesap oluştur
 									</span>
 								</label>
 								<br>
-								<label class="out" style="margin-top:20px">
+								<label class="out" style="margin-top: 20px">
 									Sipariş Notu
 								</label>
 								<textarea name="message" class="comment"></textarea>
@@ -172,11 +182,11 @@
 										</h5>
 									</div>
 									<div class="content-radio">
-										<h5 style="color:#222; font-size: 14px; font-weight: bold">
+										<h5 style="color: #222; font-size: 14px; font-weight: bold">
 											Kargo:
 										</h5>
 										<div class="radio">
-											<span id="prince2" style="color:#6c6c6c;font-size:14px">
+											<span id="prince2" style="color: #6c6c6c; font-size: 14px">
 												₺{{ $cart->shipping_cost }}
 											</span>
 										</div>
@@ -190,21 +200,6 @@
 										</h5>
 									</div>
 									<div class="payment">
-										<input type="radio" name="payment_type" value="transfer" class="so1">
-										<span style="font-size: 16px;color:#494949; font-weight: bold">
-											Havale/EFT ile Ödeme
-										</span>
-										<p style="padding-left: 20px;padding-bottom: 20px">
-											Make your payment directly into our bank account.Please use your Order ID as the payment reference. Your order shipped until the funds have cleared in our account.
-										</p>
-										<hr>
-										<input type="radio" name="payment_type" value="paytr" class="so2" id="paytr">
-										<label for="paytr">
-											<span style="font-size: 16px;color:#494949">
-												PayTR ile Ödeme
-											</span>
-										</label>
-										<br>
 										<div class="place-ober">
 											<button type="submit" class="ober">
 												Ödeme Sayfasına Devam Et
