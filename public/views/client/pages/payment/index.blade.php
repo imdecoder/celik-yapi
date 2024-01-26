@@ -76,7 +76,8 @@
 										<input type="text" name="phone" required class="district">
 									</div>
 								</div>
-								<div class="row">
+								
+								<!--<div class="row">
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
 											İl
@@ -101,23 +102,16 @@
 											</option>
 										</select>
 									</div>
-								</div>
+								</div>-->
+
 								<div class="row">
-									<div class="col-md-6 col-sm-6">
+									<div class="col-md-12 col-sm-12">
 										<label class="out">
 											Adres
 											<span style="color: #f33">*</span>
 										</label>
 										<input type="text" name="address" required class="district">
 									</div>
-									<div class="col-md-6 col-sm-6">
-										<label class="out">
-											Posta Kodu
-											<span style="color: #f33">*</span>
-										</label>
-										<br>
-										<input type="text" name="zip_code"  class="country">
-									</div>									
 								</div>
 								<input type="checkbox" name="customer" id="customer">
 								<label for="customer">
