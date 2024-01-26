@@ -123,7 +123,7 @@
 								<label class="out" style="margin-top: 20px">
 									Sipariş Notu
 								</label>
-								<textarea name="message" class="comment"></textarea>
+								<textarea name="note" class="comment"></textarea>
 							</div>
 						</div>
 					</div>
