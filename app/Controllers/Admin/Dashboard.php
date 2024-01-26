@@ -58,11 +58,22 @@ class Dashboard extends Admin
 
 		$queryProducts = $this->db->query($sql)->fetch(PDO::FETCH_OBJ);	
 
+		$sql = "
+			SELECT
+				COUNT(id) AS count
+			FROM
+				orders
+			WHERE
+				deleted_at IS NULL
+		";
+
+		$queryOrders = $this->db->query($sql)->fetch(PDO::FETCH_OBJ);	
+
 		$data = [
 			'customers' => $queryCustomers->count,
 			'vendors' => $queryVendors->count,
 			'products' => $queryProducts->count,
-			'orders' => 0 // TODO: Siparişlerin sayısını getir!
+			'orders' => $queryOrders->count
 		];
 
 		return $data;
@@ -99,7 +110,31 @@ class Dashboard extends Admin
 
 	public function orders()
 	{
-		$data = true; // []
+		$data = [];
+
+		$sql = "
+			SELECT
+				o.code AS code,
+				o.customer_name AS customer_name,
+				o.customer_email AS customer_email,
+				o.total AS total,
+				os.id AS status_id,
+				os.name AS status_name
+			FROM orders o
+			INNER JOIN order_statues os ON os.id = o.status_id
+			WHERE
+				o.deleted_at IS NULL
+			ORDER BY
+				id DESC
+			LIMIT 10
+		";
+
+		$query = $this->db->query($sql, PDO::FETCH_OBJ);
+
+		if ($query->rowCount())
+		{
+			$data = $query;
+		}
 
 		return $data;
 	}

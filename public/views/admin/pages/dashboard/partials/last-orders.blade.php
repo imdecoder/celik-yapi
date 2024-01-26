@@ -13,7 +13,7 @@
 					<table class="table table-hover">
 						<thead>
 							<th>
-								Müşteri / Tarih
+								Müşteri
 							</th>
 							<th>
 								Sipariş Durumu
@@ -27,32 +27,52 @@
 						</thead>
 						<tbody id="last-orders">
 
-							<!-- foreach ($orders as $order) -->
+							@foreach ($orders as $order)
 
-								<tr data-href="{{ site_url('admin/orders/view/1') }}">
+								<tr data-href="{{ site_url('admin/orders/view/' . $order->code) }}">
 									<td class="text-secondary">
 										<div class="fw-bolder">
-											Ad Soyad
+											{{ $order->customer_name }}
 										</div>
 										<div class="font-small-2">
-											adsoyad@mail.com
+											{{ $order->customer_email }}
 										</div>
 									</td>
 									<td>
-										<div class="badge badge-light-warning">
-											<i data-feather="clock"></i>
-											Onay Bekliyor
-										</div>
+
+										@if ($order->status_id == 1)
+
+											<div class="badge badge-light-success">
+												<i data-feather="check"></i>
+												{{ $order->status_name }}
+											</div>
+
+										@elseif ($order->status_id == 4)
+
+											<div class="badge badge-light-warning">
+												<i data-feather="clock"></i>
+												{{ $order->status_name }}
+											</div>
+
+										@else
+
+											<div class="badge badge-light-danger">
+												<i data-feather="alert-triangle"></i>
+												{{ $order->status_name }}
+											</div>
+
+										@endif
+
 									</td>
 									<td>
-										Havale
+										PayTR
 									</td>
 									<td class="text-primary fw-bolder">
-										₺100,00
+										₺{{ turkishLira($order->total) }}
 									</td>
 								</tr>
 
-							<!-- endforeach -->
+							@endforeach
 
 						</tbody>
 					</table>

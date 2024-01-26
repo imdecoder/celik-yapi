@@ -47,45 +47,45 @@
 	<section id="dashboard-ecommerce">
 		<div class="row match-height">
 
-			<!-- include('admin.pages.dashboard.shared.medal') -->
+			<!-- include('admin.pages.dashboard.partials.medal') -->
 
-			@include('admin.pages.dashboard.shared.statistics')
+			@include('admin.pages.dashboard.partials.statistics')
 
 		</div>
 		<div class="row match-height">
 
-			@include('admin.pages.dashboard.shared.customers')
+			@include('admin.pages.dashboard.partials.customers')
 
-			@include('admin.pages.dashboard.shared.last-orders')
+			@include('admin.pages.dashboard.partials.last-orders')
 
 		</div>
 		<div class="row match-height">
 			<div class="col-lg-4 col-12">
 				<div class="row match-height">
 
-					<!-- include('admin.pages.dashboard.shared.orders') -->
+					<!-- include('admin.pages.dashboard.partials.orders') -->
 
-					<!-- include('admin.pages.dashboard.shared.profit') -->
+					<!-- include('admin.pages.dashboard.partials.profit') -->
 
-					<!-- include('admin.pages.dashboard.shared.earnings') -->
+					<!-- include('admin.pages.dashboard.partials.earnings') -->
 
 				</div>
 			</div>
 
-			<!-- include('admin.pages.dashboard.shared.revenue') -->
+			<!-- include('admin.pages.dashboard.partials.revenue') -->
 
 		</div>
 		<div class="row match-height">
 
-			<!-- include('admin.pages.dashboard.shared.company') -->
+			<!-- include('admin.pages.dashboard.partials.company') -->
 
-			<!-- include('admin.pages.dashboard.shared.meetup') -->
+			<!-- include('admin.pages.dashboard.partials.meetup') -->
 
-			<!-- include('admin.pages.dashboard.shared.states') -->
+			<!-- include('admin.pages.dashboard.partials.states') -->
 
-			<!-- include('admin.pages.dashboard.shared.goal') -->
+			<!-- include('admin.pages.dashboard.partials.goal') -->
 
-			<!-- include('admin.pages.dashboard.shared.transaction') -->
+			<!-- include('admin.pages.dashboard.partials.transaction') -->
 
 		</div>
 	</section>
