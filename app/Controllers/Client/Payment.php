@@ -184,7 +184,8 @@ class Payment extends Client
 						customer_email = ?,
 						customer_phone = ?,
 						address_1 = ?,
-						status_id = ?
+						status_id = ?,
+						note = ?
 					";
 
 					$query = $this->db->prepare($sql);
@@ -198,8 +199,8 @@ class Payment extends Client
 						$email,
 						$phone,
 						$address,
-						$status_id
-						//$note
+						$status_id,
+						$note
 					]);
 
 					if ($insert)
