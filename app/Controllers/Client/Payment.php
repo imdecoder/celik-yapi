@@ -174,12 +174,10 @@ class Payment extends Client
 
 					$total = $subtotal + $shipping_cost;
 
-					// customer_id = ?,
-
 					$sql = "
-						INSER INTO orders SET
+						INSERT INTO orders SET
 						code = ?,
-						
+						customer_id = ?,
 						subtotal = ?,
 						total = ?,
 						customer_name = ?,
@@ -194,7 +192,7 @@ class Payment extends Client
 
 					$insert = $query->execute([
 						$code,
-						//$customer_id,
+						$customer_id,
 						$subtotal,
 						$total,
 						$firstname . ' ' . $lastname,
