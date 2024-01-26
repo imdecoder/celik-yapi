@@ -15,8 +15,11 @@
 		<div class="container">
 			<div class="titlell">
 				<h2>
-					PayTR ile Ödeme
+					Ödeme Başarılı!
 				</h2>
+				<p>
+					Ödemeniz başarılı bir şekilde alınmıştır.
+				</p>
 			</div>
 			
 		</div>
