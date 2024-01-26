@@ -210,7 +210,7 @@ class Payment extends Client
 						foreach ($products as $product)
 						{
 							$sql = "
-								INSER INTO order_products SET
+								INSERT INTO order_products SET
 								order_id = ?,
 								product_id = ?,
 								product_quantity = ?,
