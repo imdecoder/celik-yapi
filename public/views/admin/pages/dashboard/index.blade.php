@@ -19,14 +19,9 @@
 			margin: 1.5rem 2rem;
 		}
 
-		.card-customers-table .table tbody tr:last-child td:first-child,
-		.card-customers-table .table tbody tr:last-child td:last-child {
-			border-radius: 0;
-		}
-
 		.card-customers-table .table > :not(caption) > * > *,
 		.card-orders-table td .badge {
-			padding: 0.5rem 1rem;
+			padding: 0.8rem 1.4rem;
 		}
 
 		.card-customers-table td .avatar {
