@@ -125,7 +125,7 @@ class Payment extends Client
 				$email = $data['email'];
 				$phone = $data['phone'];
 				$address = $data['address'];
-				$note = $data['note'] ? $data['note'] : null;
+				$note = $data['note'];
 
 				if ($firstname && $lastname && $email && $phone && $address)
 				{
@@ -184,8 +184,7 @@ class Payment extends Client
 						customer_email = ?,
 						customer_phone = ?,
 						address_1 = ?,
-						status_id = ?,
-						note = ?
+						status_id = ?
 					";
 
 					$query = $this->db->prepare($sql);
@@ -199,8 +198,8 @@ class Payment extends Client
 						$email,
 						$phone,
 						$address,
-						$status_id,
-						$note
+						$status_id
+						//$note
 					]);
 
 					if ($insert)
