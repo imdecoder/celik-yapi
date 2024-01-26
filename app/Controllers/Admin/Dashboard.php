@@ -125,7 +125,7 @@ class Dashboard extends Admin
 			WHERE
 				o.deleted_at IS NULL
 			ORDER BY
-				id DESC
+				o.id DESC
 			LIMIT 10
 		";
 
