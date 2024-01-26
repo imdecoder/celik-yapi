@@ -205,6 +205,8 @@ class Payment extends Client
 
 					if ($insert)
 					{
+						$error = false;
+
 						$order_id = $this->db->lastInsertId();
 
 						foreach ($products as $product)
