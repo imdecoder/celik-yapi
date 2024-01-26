@@ -100,7 +100,8 @@
 	<!--<script src="{{ asset_url('admin/vendors/js/charts/apexcharts.min.js') }}"></script>-->
 
 	<script src="{{ asset_url('admin/vendors/js/extensions/toastr.min.js') }}"></script>
-	<script src="{{ asset_url('admin/js/scripts/pages/dashboard-ecommerce.js') }}"></script>
+	
+	<!--<script src="{{ asset_url('admin/js/scripts/pages/dashboard-ecommerce.js') }}"></script>-->
 
 	<script>
 		$('#last-orders tr').click(function() {
