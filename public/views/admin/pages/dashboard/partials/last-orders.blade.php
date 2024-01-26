@@ -19,9 +19,6 @@
 								Sipariş Durumu
 							</th>
 							<th>
-								Ödeme Türü
-							</th>
-							<th>
 								Toplam	
 							</th>							
 						</thead>
@@ -63,9 +60,6 @@
 
 										@endif
 
-									</td>
-									<td>
-										PayTR
 									</td>
 									<td class="text-primary fw-bolder">
 										₺{{ turkishLira($order->total) }}

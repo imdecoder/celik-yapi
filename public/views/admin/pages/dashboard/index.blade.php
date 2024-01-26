@@ -3,14 +3,17 @@
 @section('title', 'Çelik Panel')
 
 @section('styles.vendor')
-	<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/vendors/css/charts/apexcharts.css') }}">
+	<!--<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/vendors/css/charts/apexcharts.css') }}">-->
+
 	<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/vendors/css/extensions/toastr.min.css') }}">
 @endsection
 
 @section('styles')
 	<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/css/core/menu/menu-types/vertical-menu.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/css/pages/dashboard-ecommerce.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/css/plugins/charts/chart-apex.css') }}">
+	
+	<!--<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/css/plugins/charts/chart-apex.css') }}">-->
+
 	<link rel="stylesheet" type="text/css" href="{{ asset_url('admin/css/plugins/extensions/ext-component-toastr.css') }}">
 
 	<style type="text/css">
@@ -93,7 +96,9 @@
 @endsection
 
 @section('scripts')
-	<script src="{{ asset_url('admin/vendors/js/charts/apexcharts.min.js') }}"></script>
+
+	<!--<script src="{{ asset_url('admin/vendors/js/charts/apexcharts.min.js') }}"></script>-->
+
 	<script src="{{ asset_url('admin/vendors/js/extensions/toastr.min.js') }}"></script>
 	<script src="{{ asset_url('admin/js/scripts/pages/dashboard-ecommerce.js') }}"></script>
 
