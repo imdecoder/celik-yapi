@@ -17,7 +17,7 @@
 				<h2>
 					Ödeme Başarılı!
 				</h2>
-				<p class="text-center" style="margin-bottom: 30px">
+				<p class="text-center" style="color: #4bb543; margin-bottom: 30px">
 					Ödemeniz başarılı bir şekilde alınmıştır.
 				</p>
 			</div>
