@@ -184,7 +184,7 @@ class Pay extends PayTR
 				}
 			}
 
-			$this->payment_amount = $amount;
+			$this->payment_amount = $amount * 100;
 		}
 
 		$data = base64_encode(json_encode($data));
