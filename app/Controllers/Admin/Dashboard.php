@@ -121,7 +121,7 @@ class Dashboard extends Admin
 				os.id AS status_id,
 				os.name AS status_name
 			FROM orders o
-			INNER JOIN order_statues os ON os.id = o.status_id
+			INNER JOIN order_statuses os ON os.id = o.status_id
 			WHERE
 				o.deleted_at IS NULL
 			ORDER BY
