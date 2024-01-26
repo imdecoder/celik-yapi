@@ -68,10 +68,10 @@ class Cart extends Client
 				}
 			}
 
-			$shipping_cost = 5.0;
+			$shipping_cost = 0; // TODO
 
 			$cart['shipping_cost'] = turkishLira($shipping_cost);
-			$cart['subtotal'] = turkishLira($subtotal + $shipping_cost);
+			$cart['subtotal'] = turkishLira($subtotal);
 			$cart['total'] = turkishLira($subtotal + $shipping_cost);
 		}
 

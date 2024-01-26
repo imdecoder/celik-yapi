@@ -18,13 +18,11 @@
 					PayTR ile Ödeme
 				</h2>
 			</div>
-			<iframe src="https://www.paytr.com/odeme/guvenli/{{ $token }}" id="paytriframe" frameborder="0" scrolling="no" style="width: 100%; margin-bottom: 30px"></iframe>
+			
 		</div>
 	</div>
 
 @endsection
 
 @section('scripts')
-	<script src="https://www.paytr.com/js/iframeResizer.min.js"></script>
-	<script>iFrameResize({},'#paytriframe')</script>
 @endsection

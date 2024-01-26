@@ -78,7 +78,7 @@ class Pay extends PayTR
 		$this->currency = 'TL';
 	}
 
-	public function token()
+	public function get_token()
 	{
 		$token = null;
 
@@ -151,6 +151,8 @@ class Pay extends PayTR
 		{
 			$cart = $_SESSION['cart'];
 
+			$amount = 0;
+
 			foreach ($cart as $item)
 			{
 				$code = $item['code'];
@@ -177,8 +179,12 @@ class Pay extends PayTR
 						$price,
 						$qty
 					];
+
+					$amount += $price;
 				}
 			}
+
+			$this->payment_amount = $amount;
 		}
 
 		$data = base64_encode(json_encode($data));

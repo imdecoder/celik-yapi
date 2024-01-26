@@ -8,16 +8,22 @@ class Order extends PayTR
 
 	public $hash;
 
+	public $code;
+
 	public function __construct()
 	{
 		parent::__construct();
 
 		$this->post = $_POST;
 		$this->hash = $this->hash();
+
+		$this->code = $this->post['merchant_oid'];
 	}
 
 	public function status()
 	{
+		$status = false;
+
 		if ($this->hash != $this->post['hash'])
 		{
 			die('PAYTR notification failed: bad hash');
@@ -32,6 +38,7 @@ class Order extends PayTR
 			##########################################################################
 			## 3) payment_amount sipariş tutarı taksitli alışveriş yapılması durumunda
 			## Güncel tutarı $post['total_amount'] değerinden alabilirsin.
+			$status = true;
 		}
 		else
 		{
@@ -42,11 +49,10 @@ class Order extends PayTR
 			## 2) Eğer ödemenin onaylanmama sebebini kayıt edecekseniz:
 			## $post['failed_reason_code'] - başarısız hata kodu.
 			## $post['failed_reason_msg'] - başarısız hata mesajı.
+			$status = false;
 		}
 
-		## Bildirimin alındığını PayTR sistemine bildir.
-		echo 'OK';
-		exit;
+		return $status;
 	}
 
 	public function hash()
