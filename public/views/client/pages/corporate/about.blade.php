@@ -5,6 +5,15 @@
 @section('robots', 'index, follow')
 
 @section('styles')
+	<style type="text/css">
+		.zoa-info a {
+			color: #777;
+		}
+
+		.zoa-info a:hover {
+			color: #fff;
+		}
+	</style>
 @endsection
 
 @section('content')
@@ -125,11 +134,7 @@
 
 						<div class="brand-item">
 							<a href="{{ site_url('marka/' . $vendor->slug) }}" class="hover-images">
-								
-								<!--<img src="{{ asset_url('client/img/about/brand-urbane.png') }}" alt="{{ $vendor->name }}" class="img-responsive">-->
-
-								{{ $vendor->name }}
-
+								<img src="{{ asset_url('client/img/default.jpg') }}" alt="{{ $vendor->name }}" class="img-responsive">
 							</a>
 						</div>
 
