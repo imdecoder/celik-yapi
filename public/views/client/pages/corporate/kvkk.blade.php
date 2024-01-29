@@ -13,18 +13,12 @@
 
 	<div class="wrapper-faqs">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-md-offset-1 col-md-offset-0 faqs">
-					<h1>
-						{{ $meta['title'] }}
-					</h1>
-					<div class="faq-block">
-						<p>
-							Metin.
-						</p>
-					</div>
-				</div>
-			</div>
+			<h1>
+				{{ $meta['title'] }}
+			</h1>
+			<p>
+				Metin.
+			</p>
 		</div>
 	</div>
 
