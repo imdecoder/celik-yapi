@@ -79,7 +79,7 @@
 											<span style="color: #f33">*</span>
 										</label>
 										<br>
-										<input type="text" name="email" required class="country" style="text-transform: none">
+										<input type="email" name="email" required class="country" style="text-transform: none">
 									</div>
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
@@ -127,8 +127,8 @@
 										<input type="text" name="address" required class="district">
 									</div>
 								</div>
-								<input type="checkbox" name="customer" id="customer">
-								<label for="customer">
+								<input type="checkbox" name="new_customer" value="1" id="new_customer">
+								<label for="new_customer">
 									<span style="color: #333; font-size: 13px; text-transform: none">
 										Yeni bir hesap oluştur
 									</span>
@@ -137,7 +137,7 @@
 								<label class="out" style="margin-top: 20px">
 									Sipariş Notu
 								</label>
-								<textarea name="note" class="comment"></textarea>
+								<textarea name="note" class="comment" placeholder="Opsiyonel"></textarea>
 							</div>
 						</div>
 					</div>
