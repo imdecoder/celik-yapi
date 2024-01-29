@@ -135,7 +135,7 @@ $(function() {
     })
 
 	$('.icon-pushmenu').click(function() {
-        $('html, body').css('overflow', 'hidden')
+        $('html, body').css('overflow', 'unset')
     })
 
 })
