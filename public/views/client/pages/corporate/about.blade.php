@@ -18,7 +18,7 @@
 
 @section('content')
 
-	@include('client.pages.shared.breadcrumb')
+	@include('client.pages.corporate.shared.breadcrumb')
 
 	<div class="container container-content">
 		<div class="zoa-about text-center">
