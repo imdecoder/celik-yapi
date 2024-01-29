@@ -48,14 +48,14 @@ $app->router->group('/odeme', function ($router) {
 	$router->get('/hata', 'Client.Payment@error');
 });
 
-$app->router->get('/hakkimizda', 'Client.Corporate@about');
-$app->router->get('/kvkk', 'Client.Corporate@kvkk');
-$app->router->get('/gizlilik', 'Client.Corporate@privacy');
+$app->router->get('/hakkimizda', 'Client.Pages.Corporate@about');
+$app->router->get('/kvkk', 'Client.Pages.Corporate@kvkk');
+$app->router->get('/gizlilik', 'Client.Pages.Corporate@privacy');
 
-$app->router->get('/teslimat-kosullari', 'Client.Contracts@deliveryConditions');
-$app->router->get('/uyelik-sozlesmesi', 'Client.Contracts@membershipAgreement');
-$app->router->get('/iptal-ve-iade-kosullari', 'Client.Contracts@refundConditions');
-$app->router->get('/mesafeli-satis-sozlesmesi', 'Client.Contracts@sellingContract');
+$app->router->get('/teslimat-kosullari', 'Client.Pages.Contracts@deliveryConditions');
+$app->router->get('/uyelik-sozlesmesi', 'Client.Pages.Contracts@membershipAgreement');
+$app->router->get('/iptal-ve-iade-kosullari', 'Client.Pages.Contracts@refundConditions');
+$app->router->get('/mesafeli-satis-sozlesmesi', 'Client.Pages.Contracts@sellingContract');
 
 $app->router->any('/iletisim', 'Client.Contact@index');
 

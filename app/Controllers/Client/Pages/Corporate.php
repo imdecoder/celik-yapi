@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Controllers\Client;
+namespace App\Controllers\Client\Pages;
 
-use App\Controllers\Client;
+use App\Controllers\Client\Pages;
 use PDO;
 
-class Corporate extends Client
+class Corporate extends Pages
 {
 	public function __construct()
 	{

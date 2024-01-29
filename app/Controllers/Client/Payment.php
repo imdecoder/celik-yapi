@@ -295,6 +295,12 @@ class Payment extends Client
 		$this->data['meta']['title'] = 'Ödeme Başarılı';
 		$this->data['meta']['description'] = null;
 
+		if (!$_SERVER['HTTP_REFERER'])
+		{
+			header('Location: ' . site_url());
+			exit;
+		}
+
 		return $this->view('client.pages.payment.success', $this->data);
 	}
 
@@ -302,6 +308,12 @@ class Payment extends Client
 	{
 		$this->data['meta']['title'] = 'Başarısız Ödeme';
 		$this->data['meta']['description'] = null;
+
+		if (!$_SERVER['HTTP_REFERER'])
+		{
+			header('Location: ' . site_url());
+			exit;
+		}
 
 	    return $this->view('client.pages.payment.error', $this->data);
 	}
