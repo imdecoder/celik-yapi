@@ -83,7 +83,9 @@
 											<tr class="item_cart">
 												<td class=" product-name">
 													<div class="product-img">
-														<img src="{{ $product->image }}" alt="{{ $product->name }}" width="150" height="150">
+														<a href="{{ $product->link }}">
+															<img src="{{ $product->image }}" alt="{{ $product->name }}" width="150" height="150">
+														</a>
 													</div>
 												</td>
 												<td class="product-desc">

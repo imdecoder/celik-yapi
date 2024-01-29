@@ -24,18 +24,18 @@
 					<div class="row">
 						<div class="col-md-4"></div>
 						<div class="col-md-4">
-							<form method="post" class="form-customer form-login">
+							<form action="{{ site_url('giris-yap') }}" method="post" class="form-customer form-login">
 								<div class="form-group">
-									<label for="email">
+									<label for="email_login">
 										E-posta adresi
 									</label>
-									<input type="email" name="email" class="form-control form-account" id="email">
+									<input type="email" name="email_login" class="form-control form-account" id="email_login">
 								</div>
 								<div class="form-group">
-									<label for="password">
+									<label for="password_login">
 										Şifre
 									</label>
-									<input type="password" name="password" class="form-control form-account" id="password">
+									<input type="password" name="password_login" class="form-control form-account" id="password_login">
 								</div>
 								<div class="btn-button-group mg-top-30 mg-bottom-15">
 									<button type="submit" class="zoa-btn btn-login hover-white">
@@ -43,6 +43,7 @@
 									</button>
 								</div>
 							</form>
+
 							<!--<div class="social-group-button">
 								<a href="" class="twitter button">
 									<div class="slide">
@@ -67,6 +68,7 @@
 									</div>
 								</a>
 							</div>-->
+
 						</div>
 						<div class="col-md-4"></div>
 					</div>
@@ -75,7 +77,7 @@
 					<div class="row">
 						<div class="col-md-4"></div>
 						<div class="col-md-4">
-							<form method="post" class="form-customer form-login">
+							<form action="{{ site_url('kayit-ol') }}" method="post" class="form-customer form-login">
 								<div class="form-group">
 									<label for="firstname">
 										Ad
@@ -89,14 +91,14 @@
 									<input type="text" name="lastname" class="form-control form-account" id="lastname">
 								</div>
 								<div class="form-group">
-									<label for="email">
+									<label for="email_register">
 										E-posta adresi
 									</label>
-									<input type="email" name="email" class="form-control form-account" id="email">
+									<input type="email" name="email_register" class="form-control form-account" id="email_register">
 								</div>
 								<div class="form-group">
-									<label for="password">Şifre</label>
-									<input type="password" name="password" class="form-control form-account" id="password">
+									<label for="password_register">Şifre</label>
+									<input type="password" name="password_register" class="form-control form-account" id="password_register">
 								</div>
 								<div class="btn-button-group mg-top-30 mg-bottom-15">
 									<button type="submit" class="zoa-btn btn-login hover-white">
@@ -105,7 +107,7 @@
 								</div>
 							</form>
 							<span class="text-note">
-								<a href="#">Gizlilik & Şartları</a> okudum ve kabul ediyorum.
+								<a href="{{ site_url('gizlilik') }}">Gizlilik</a> & <a href="{{ site_url('uyelik-sozlesmesi') }}">Üyelik Sözleşmesini</a> okudum ve kabul ediyorum.
 							</span>
 						</div>
 						<div class="col-md-4"></div>
