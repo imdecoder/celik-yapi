@@ -5,6 +5,20 @@
 @section('robots', 'noindex, nofollow')
 
 @section('styles')
+	<style type="text/css">
+		.total,
+		.content-radio {
+			justify-content: space-between;
+		}
+
+		.total .prince {
+			padding-left: 0;
+		}
+
+		.content-radio .radio {
+			margin-left: 0;
+		}
+	</style>
 @endsection
 
 @section('content')
@@ -25,13 +39,13 @@
 							<div class="content">
 								<h5>
 									Zaten bir hesabınız var mı?
-									<a href="{{ site_url('hesabim/giris-yap') }}" style="color: #333; text-decoration: underline">
+									<a href="{{ site_url('giris-yap') }}" style="color: #333; text-decoration: underline">
 										Giriş Yap
 									</a>
 								</h5>
 								<h5>
 									Henüz bir hesabınız yok mu?
-									<a href="{{ site_url('hesabim/kayit-ol') }}" style="color: #333; text-decoration: underline">
+									<a href="{{ site_url('kayit-ol') }}" style="color: #333; text-decoration: underline">
 										Kayıt Ol
 									</a>
 								</h5>
@@ -65,7 +79,7 @@
 											<span style="color: #f33">*</span>
 										</label>
 										<br>
-										<input type="text" name="email" required class="country">
+										<input type="text" name="email" required class="country" style="text-transform: none">
 									</div>
 									<div class="col-md-6 col-sm-6">
 										<label class="out">
@@ -115,7 +129,7 @@
 								</div>
 								<input type="checkbox" name="customer" id="customer">
 								<label for="customer">
-									<span style="color: #333; font-size: 13px; text-transform: unset">
+									<span style="color: #333; font-size: 13px; text-transform: none">
 										Yeni bir hesap oluştur
 									</span>
 								</label>
