@@ -18,6 +18,10 @@
 		.content-radio .radio {
 			margin-left: 0;
 		}
+
+		.textarea.comment {
+			padding: 15px 20px;
+		}
 	</style>
 @endsection
 
