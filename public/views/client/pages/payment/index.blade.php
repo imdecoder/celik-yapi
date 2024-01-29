@@ -195,7 +195,7 @@
 									</div>
 									<div class="content-radio">
 										<h5 style="color: #222; font-size: 14px; font-weight: bold">
-											Kargo:
+											Kargo Ücreti
 										</h5>
 										<div class="radio">
 											<span id="prince2" style="color: #6c6c6c; font-size: 14px">
