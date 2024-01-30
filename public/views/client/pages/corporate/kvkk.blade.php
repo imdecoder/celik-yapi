@@ -7,7 +7,27 @@
 @section('styles')
 	<style type="text/css">
 		.corporate-page .content {
-			margin-top: 30px;
+			margin-top: 80px;
+		}
+
+		.corporate-page .content p {
+			line-height: 28px;
+		}
+
+		.corporate-page .content p ul {
+			padding: 5px 20px;
+		}
+
+		.corporate-page .content p ul li {
+			margin-bottom: 10px;
+		}
+
+		.corporate-page .content p ul.list-circle li {
+			list-style: circle;
+		}
+
+		.corporate-page .content p ul.list-square li {
+			list-style: square;
 		}
 	</style>
 @endsection
@@ -27,9 +47,10 @@
 						6698 SAYILI KİŞİSEL VERİLERİN KORUNMASI KANUNU (KVKK) BİLGİLENDİRME VE AYDINLATMA METNİ
 					</strong>
 				</p>
+				<br>
 				<p>
 					<a href="#">
-						6698 KVKK VERİ SAHİBİ BAŞVURU FORMU İNDİR
+						<u>6698 KVKK VERİ SAHİBİ BAŞVURU FORMU İNDİR</u>
 					</a>
 					<br>
 					<strong>VERİ SORUMLUSU:</strong>
@@ -39,9 +60,10 @@
 					19 Mayıs Mah. Ağabali Cad. No: 39/1, İlkadım/Samsun
 					<br>
 					<strong>VERGİ NO:</strong>
-					<br>
 					VERGİ DAİRESİ ADI / VERGİ NUMARASI
 				</p>
+				<br>
+				<br>
 				<p>
 					<strong>
 						Çelik Yapı Market
@@ -72,6 +94,8 @@
 					ölçülü olarak işlenebilecek, yurtiçindeki üçüncü kişilere aktarılabilecek, saklanacak,
 					profilleme için kullanılabilecek ve sınıflandırılabilecektir.
 				</p>
+				<br>
+				<br>
 				<p>
 					<ol start="1">
 						<li>
@@ -84,14 +108,17 @@
 							herhangi bir veri kayıt sisteminin parçası olmak kaydıyla otomatik olmayan yollarla
 							elde edilerek, kaydedilerek, depolanarak, değiştirilerek, yeniden düzenlenerek, işlenmektedir.
 							<br>
+							<br>
+							<br>
 							<strong>
 								Kişisel verileriniz, ŞİRKET faaliyetleri kapsamında Kanunun
 								4., 5., 6. maddelerine ve ilgili mevzuata uygun olarak aşağıdaki amaçlar
 								doğrultusunda işlenmektedir:
 							</strong>
 							<br>
+							<br>
 							<u>Toplanan kişisel verileriniz;</u>
-							<ul>
+							<ul class="list-circle">
 								<li>
 									Lojistik Faaliyetlerinin Yürütülmesi
 								</li>
@@ -185,16 +212,20 @@
 							alınmaktadır. Ancak 5.maddenin 2. Fıkrasında yazan şartlara uygun olması
 							kaydı ile ilgili kişinin rızası alınmadan kişisel verilerin işlenmesi mümkündür.
 							<br>
+							<br>
 							Kanunların emredici hükümleri gereği gerçek kişilerin bilgilerinin doğru ve
 							güncel tutulması esastır. Bu nedenle, belirli zaman aralıkları ile
 							kişisel bilgilerinizin güncellenmesi talep edilebilir.
+							<br>
 							<br>
 							<br>
 							<strong>
 								Yukarıda yazılı amaçlar doğrultusunda, ŞİRKET faaliyetleri ile
 								sınırlı olmak üzere, aşağıda yazılı kişisel verileriniz işlenmektedir.
 							</strong>
-							<ul>
+							<br>
+							<br>
+							<ul class="list-square">
 								<li>
 									<strong>
 										<u>Kimlik Bilgileriniz</u>
@@ -271,6 +302,7 @@
 								2. SÜRE
 							</strong>
 							<br>
+							<br>
 							Kişisel verileriniz Şirket tarafından 10 (on) yıl saklamaktadır.
 							Fiziksel mekan güvenliği bilgileri 1 (bir) ay süreyle saklanacaktır.
 							Süre geçtikten sonra kişisel verileriniz Şirket tarafından veya
@@ -280,14 +312,19 @@
 							kişisel verilerin işlenmesi için verdiğiniz izni her zaman geri alabilirsiniz.
 							<br>
 							<br>
+							<br>
 							<strong>
 								MADDE 5 - Kişisel verilerin işlenme şartları
 							</strong>
 							<br>
+							<br>
+							<br>
 							(1) Kişisel veriler ilgili kişinin açık rızası olmaksızın işlenemez.
+							<br>
 							<br>
 							(2) Aşağıdaki şartlardan birinin varlığı hâlinde, ilgili kişinin
 							açık rızası aranmaksızın kişisel verilerinin işlenmesi mümkündür:
+							<br>
 							<br>
 							<ol start="1">
 								<li>
@@ -320,16 +357,22 @@
 									veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması.
 								</li>
 							</ol>
+							<br>
+							<br>
+							<br>
 							<strong>
 								MADDE 6 - Özel nitelikli kişisel verilerin işlenme şartları
 							</strong>
+							<br>
 							<br>
 							(1) Kişilerin ırkı, etnik kökeni, siyasi düşüncesi, felsefi inancı, dini, mezhebi veya
 							diğer inançları, kılık ve kıyafeti, dernek, vakıf ya da sendika üyeliği, sağlığı,
 							cinsel hayatı, ceza mahkûmiyeti ve güvenlik tedbirleriyle ilgili verileri ile biyometrik ve
 							genetik verileri özel nitelikli kişisel veridir.
 							<br>
+							<br>
 							(2) Özel nitelikli kişisel verilerin, ilgilinin açık rızası olmaksızın işlenmesi yasaktır.
+							<br>
 							<br>
 							(3) Birinci fıkrada sayılan sağlık ve cinsel hayat dışındaki kişisel veriler,
 							kanunlarda öngörülen hâllerde ilgili kişinin açık rızası aranmaksızın işlenebilir.
@@ -339,6 +382,7 @@
 							sır saklama yükümlülüğü altında bulunan kişiler veya yetkili kurum ve
 							kuruluşlar tarafından ilgilinin açık rızası aranmaksızın işlenebilir.
 							<br>
+							<br>
 							(4) Özel nitelikli kişisel verilerin işlenmesinde, ayrıca Kurul tarafından
 							belirlenen yeterli önlemlerin alınması şarttır.
 						</li>
@@ -346,6 +390,7 @@
 							<strong>
 								İŞLENEN KİŞİSEL VERİLERİN KİMLERE VE HANGİ AMAÇLA AKTARILABİLECEĞİ
 							</strong>
+							<br>
 							<br>
 							Şirketimiz kişisel verileriniz; 6698 sayılı Kanun'un 8. ve 9. Maddelerinde
 							belirtilen kişisel veri işleme şartları ve amaçları çerçevesinde ve öngörülen
@@ -359,21 +404,25 @@
 								YURTDIŞINA AKTARIM
 							</strong>
 							<br>
+							<br>
 							KVKK'nın 5 (2) maddesinde belirtilen hukuki sebeplere dayanarak işlenen
 							kişisel verileriniz, Şirket’in ürün ve hizmetlerine dair tüm faaliyetlerinin
 							veri tabanları yurt dışında olan çevrimiçi yazılım sistemleri aracılığıyla
-							gerçekleştirilmesi sebebiyle KVKK’nın 9 (2) maddesindeki yurt dışına aktarım
+							gerçekleştirilmesi sebebiyle KVKK'nın 9 (2) maddesindeki yurt dışına aktarım
 							şartları doğrultusunda, ilgili kişinin açık rızası temin edilmeksizin,
+							<br>
 							<br>
 							(i) Kişisel Verileri Koruma Kurulu (Bundan sonra "Kurul" olarak anılacaktır.)
 							tarafından yeterli korumaya sahip olduğu ilan edilen yabancı ülkelere
 							("Yeterli Korumaya Sahip Yabancı Ülke")
+							<br>
 							<br>
 							(ii) Türkiye'deki ve ilgili yabancı ülkedeki veri sorumlularının yeterli
 							bir korumayı yazılı olarak taahhüt ettiği ve ilgili aktarım açısından Kurul'un
 							izninin bulunduğu yabancı ülke ve/veya ülkeler
 							("Yeterli Korumayı Taahhüt Eden Veri Sorumlusunun Bulunduğu Yabancı Ülke") ile
 							sınırlı olmak kaydıyla aktarılabilecektir.
+							<br>
 							<br>
 							Yukarıda açıklanan amaçlar kapsamında işlenen kişisel verilerinizin yurt dışına aktarımı,
 							KVKK ve ilgili sair mevzuat başta olmak üzere, Kurul tarafından alınan kararlar ve
@@ -385,6 +434,8 @@
 								KİŞİSEL VERİ TOPLAMANIN YÖNTEMİ VE HUKUKİ SEBEPLERİ:
 							</strong>
 							<br>
+							<br>
+							<br>
 							Kişisel verileriniz, Şirketimiz tarafından değişik yollardan
 							(Şirket'in merkezi, satış ofisleri, şubeleri veya diğer
 							alt yüklenicileri veya iş ortakları ile iletişime geçebileceğiniz ofis ve
@@ -395,12 +446,14 @@
 							anlaşmalı oldukları diğer kişi ve kuruluşlar kanalıyla yazılı, sözlü,
 							görüntü kaydı veya diğer fiziksel veya elektronik ortamda vs.) elde edilebilir.
 							<br>
+							<br>
 							Kişisel verileriniz, her türlü  yazılı, sözlü, görüntü kaydı veya
 							diğer fiziksel veya elektronik ortamda, yukarıda yer verilen amaçlar
 							doğrultusunda Şirketçe sunduğumuz ürün ve hizmetlerin belirlenen
 							yasal çerçevede sunulabilmesi ve bu kapsamda Şirketimizin sözleşme ve
 							yasadan doğan mesuliyetlerini eksiksiz ve doğru bir şekilde
 							yerine getirebilmesi gayesi ile edinilir.
+							<br>
 							<br>
 							Kişisel verileriniz, Şirketimiz veya Şirketimiz adına veri işleyen gerçek
 							ya da tüzel kişiler tarafından sayılanlarla sınırlı olmamak üzere,
@@ -411,14 +464,17 @@
 							kişisel verileriniz KVK Kanunu'nun 5. ve 6. maddelerinde belirtilen
 							kişisel veri işleme şartları ve amaçları kapsamında bu metnin
 							(1) ve (2) numaralı maddelerinde belirtilen amaçlarla da
-							işlenebilmekte veaktarılabilmektedir.
+							işlenebilmekte ve aktarılabilmektedir.
+							<br>
 							<br>
 							<strong>
 								Ayrıca, açık rıza aranmaksızın aşağıda yazılı hukuki sebeplere
 								bağlı olarak kişisel verileriniz işlenmektedir.
 								Buna göre; kişisel verileriniz,
 							</strong>
-							<ul>
+							<br>
+							<br>
+							<ul class="list-square">
 								<li>
 									Kanunlarda açıkça öngörülmesi sebebiyle,
 								</li>
@@ -446,6 +502,8 @@
 								</li>
 							</ul>
 							<br>
+							<br>
+							<br>
 							Kişisel Verilerin Korunması Kanununun 5. ve 6. maddelerine,
 							Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve
 							Esaslar Hakkında Tebliğin 5/1-h. maddesine uygun olarak belirtilen
@@ -458,7 +516,9 @@
 								Kanunun 11. maddesi uyarıca; herkes,
 								veri sorumlusuna başvurarak kendisiyle ilgili olarak;
 							</strong>
-							<ul>
+							<br>
+							<br>
+							<ul class="list-square">
 								<li>
 									Kişisel veri işlenip işlenmediğini öğrenme,
 								</li>
@@ -500,7 +560,69 @@
 								KİŞİSEL VERİ SAHİBİNİN HAKLARI (Başvuru Hakkı):
 							</strong>
 							<br>
-							
+							<br>
+							<br>
+							Kişisel Verileri Koruma Kanununun "ilgili kişinin haklarını düzenleyen" 11 inci maddesi
+							kapsamındaki taleplerinizi, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğe
+							göre veri sorumlusu olarak;
+							<strong>DOKUZ EYLÜL MAHALLESİ HAVA EĞİTİM YOLU SOKAK NO: 12 / GAZİEMİR, İZMİR</strong>
+							adresine, kişisel veri sahibi olan ilgili kişinin
+							<strong>http://www.caglayan-ahsap.com</strong> adresinde yer alan
+							<strong>BAŞVURU FORMUNU</strong> doldurarak, formun imzalı bir nüshasını
+							şirket adresine kimliğinizi tespit edici belgeler ile bizzat elden iletebilir,
+							güvenli elektronik imza, mobil imza ya da şirketimize bildirdiğiniz ve şirketimiz
+							sisteminde kayıtlı bulunan elektronik posta adresini kullanmak suretiyle
+							<strong>caglayanyapi.market@hs02.kep.tr</strong> adresine elektronik posta göndererek,
+							yapacağınız şahsi başvuru ile, Noter vasıtasıyla yapacağınız başvuru veya
+							Kişisel Verileri Koruma Kurumunun belirlediği yöntemlerle iletebilirsiniz.
+							<br>
+							<br>
+							<br>
+							6698 sayılı KVK Kanunu 13/1. maddesi uyarınca, yukarıda belirtilen haklarınızı
+							kullanmak amacıyla yapacağınız başvurularınızı yazılı olarak veya
+							KVK Kurumunun belirlediği yukarıda yazılı yöntemlerle Şirketimize
+							iletmeniz gerekmektedir.
+							<br>
+							<br>
+							Şirketimiz, başvuruda yer alan taleplerinizi, talebin niteliğine göre en kısa sürede
+							ve en geç otuz gün içinde ücretsiz olarak sonuçlandıracaktır.
+							<br>
+							<br>
+							Ancak, işlemin ayrıca bir maliyeti gerektirmesi hâlinde, Kurulca belirlenen tarifedeki
+							ücret talep edilecektir. Bu kapsamda ilgili kişinin başvurusuna yazılı olarak cevap verilmesi
+							halinde, on sayfaya kadar ücret alınmayacak, on sayfanın üzerindeki her bir sayfa için
+							1 TL işlem ücreti alınacaktır.
+							<br>
+							<br>
+							Başvuruya karşı verilecek cevabın CD, flaş bellek gibi elektronik kayıt ortamında verilmesi
+							halinde şirketimiz tarafından talep edilebilecek ücret kayıt ortamının gerektirdiği
+							maliyet miktarını geçmeyecektir.
+							<br>
+							<br>
+							6698 sayılı Kişisel Verilerin Korunması Kanunu'nun
+							"Veri Sorumlusunun Aydınlatma Yükümlülüğü" başlıklı 10. maddesi gereğince kişisel
+							verilerimin kim tarafından, hangi amaçla işleneceği, işlenen kişisel verilerin kimlere ve
+							hangi amaçla aktarılabileceği, kişisel veri toplamanın yöntemi ve hukuki sebebi ve
+							Kanun'un 11. maddesinde yer alan haklarım konusunda hazırlanan işbu Aydınlatma Metnini okudum,
+							anladım ve veri sorumlusu sıfatına sahip,
+							<br>
+							<br>
+							<br>
+							<strong>"ŞİRKET"</strong> tarafından bu konuda detaylı olarak bilgilendirildim.
+							<br>
+							<br>
+							<strong>
+								ETK ONAY FORMU
+							</strong>
+							<br>
+							<br>
+							6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun ("ETK") kapsamında
+							Çelik Yapı (celikyapimarket.com.tr) tarafından yapılacak tüm elektronik
+							iletişimlere onay veriyorum.
+							<br>
+							<br>
+							Tarafınızdan gönderilecek bilgilendirme ve kampanya e-postalarını,
+							SMS'lerini ve arama'larını almak istiyorum.
 						</li>
 					</ol>
 				</p>
