@@ -14,7 +14,7 @@
 				Kategori
 			</th>-->
 			<th>
-				Pazaryeri
+				SKU
 			</th>
 			<th>
 				Stok
@@ -50,11 +50,15 @@
 				<td>
 					
 					@if ($product->hb_sku)
-						<div class="avatar-group">
+
+						{{ $product->hb_sku }}
+
+						<!--<div class="avatar-group">
 							<div title="Hepsiburada" class="avatar pull-up my-0" data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom">
 								<img src="{{ asset_url('admin/images/marketplaces/hepsiburada.png') }}" alt="Hepsiburada" width="26" height="26">
 							</div>
-						</div>
+						</div>-->
+
 					@else
 						-
 					@endif

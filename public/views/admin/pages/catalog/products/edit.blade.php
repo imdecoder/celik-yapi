@@ -283,10 +283,10 @@
 							<div class="card-body">
 								<div class="row">
 									<div class="col-4">
-										<label class="form-label" for="sku">
-											Stok Kodu
+										<label class="form-label" for="hb_sku">
+											SKU
 										</label>
-										<input type="text" name="sku" value="{{ $product->sku }}" class="form-control" id="sku">
+										<input type="text" name="hb_sku" value="{{ $product->hb_sku }}" class="form-control" id="hb_sku">
 									</div>
 									<div class="col-4">
 										<label class="form-label" for="barcode">

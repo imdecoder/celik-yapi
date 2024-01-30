@@ -70,7 +70,6 @@ class Products extends Admin
 			SELECT
 				p.code AS code,
 				p.hb_sku AS hb_sku,
-				p.hb_sku AS hb_code,
 				p.name AS name,
 				p.slug AS slug,
 				p.quantity AS quantity,
@@ -364,7 +363,7 @@ class Products extends Admin
 				$quantity = $data['quantity'];
 				$price = $data['price'] > 0 ? $data['price'] : NULL;
 				$discount = $data['discount'] > 0 ? $data['discount'] : NULL;
-				$sku = $data['sku'];
+				$hb_sku = $data['hb_sku'];
 				$barcode = $data['barcode'];
 				$vendor = $data['vendor'];
 				$category = $data['category'];
@@ -430,7 +429,7 @@ class Products extends Admin
 							quantity = ?,
 							price = ?,
 							discount = ?,
-							sku = ?,
+							hb_sku = ?,
 							barcode = ?,
 							image = ?,
 							vendor_id = ?,
@@ -452,7 +451,7 @@ class Products extends Admin
 							$quantity,
 							$price,
 							$discount,
-							$sku,
+							$hb_sku,
 							$barcode,
 							$image,
 							$vendor,
@@ -507,6 +506,7 @@ class Products extends Admin
 			SELECT
 				id,
 				code,
+				hb_sku,
 				name,
 				slug,
 				description,
@@ -564,7 +564,7 @@ class Products extends Admin
 				$quantity = $data['quantity'];
 				$price = $data['price'] > 0 ? $data['price'] : NULL;
 				$discount = $data['discount'] > 0 ? $data['discount'] : NULL;
-				$sku = $data['sku'];
+				$hb_sku = $data['hb_sku'];
 				$barcode = $data['barcode'];
 				$vendor = $data['vendor'];
 				$category = $data['category'];
@@ -634,7 +634,7 @@ class Products extends Admin
 								quantity = :quantity,
 								price = :price,
 								discount = :discount,
-								sku = :sku,
+								hb_sku = :hb_sku,
 								barcode = :barcode,
 								image = :image,
 								vendor_id = :vendor_id,
@@ -656,7 +656,7 @@ class Products extends Admin
 							'quantity' => $quantity,
 							'price' => $price,
 							'discount' => $discount,
-							'sku' => $sku,
+							'hb_sku' => $hb_sku,
 							'barcode' => $barcode,
 							'image' => $image,
 							'vendor_id' => $vendor,
