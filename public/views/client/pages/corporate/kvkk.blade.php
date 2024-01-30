@@ -54,6 +54,7 @@
 					</strong>
 				</p>
 				<br>
+				<br>
 				<p>
 					<a href="#">
 						<u>6698 KVKK VERİ SAHİBİ BAŞVURU FORMU İNDİR</u>
@@ -68,7 +69,6 @@
 					<strong>VERGİ NO:</strong>
 					VERGİ DAİRESİ ADI / VERGİ NUMARASI
 				</p>
-				<br>
 				<br>
 				<p>
 					<strong>
@@ -100,7 +100,6 @@
 					ölçülü olarak işlenebilecek, yurtiçindeki üçüncü kişilere aktarılabilecek, saklanacak,
 					profilleme için kullanılabilecek ve sınıflandırılabilecektir.
 				</p>
-				<br>
 				<br>
 				<p>
 					<ol start="1">
@@ -303,6 +302,7 @@
 									yönetim sürecine dair bilgiler)
 								</li>
 							</ul>
+							<br>
 						</li>
 						<li>
 							<strong>
@@ -323,7 +323,6 @@
 							<strong>
 								MADDE 5 - Kişisel verilerin işlenme şartları
 							</strong>
-							<br>
 							<br>
 							<br>
 							(1) Kişisel veriler ilgili kişinin açık rızası olmaksızın işlenemez.
@@ -366,7 +365,6 @@
 							</ol>
 							<br>
 							<br>
-							<br>
 							<strong>
 								MADDE 6 - Özel nitelikli kişisel verilerin işlenme şartları
 							</strong>
@@ -392,6 +390,8 @@
 							<br>
 							(4) Özel nitelikli kişisel verilerin işlenmesinde, ayrıca Kurul tarafından
 							belirlenen yeterli önlemlerin alınması şarttır.
+							<br>
+							<br>
 						</li>
 						<li>
 							<strong>
@@ -405,6 +405,8 @@
 							özel hukuk tüzel kişilerine, iş ortaklarımıza, iştirakler ve bağlı ortaklıklarımıza,
 							bilişim teknolojileri desteği aldığımız kuruluşlara ve yetkili kamu kurum ve
 							kişilerine aktarılabilecektir.
+							<br>
+							<br>
 						</li>
 						<li>
 							<strong>
@@ -435,6 +437,8 @@
 							KVKK ve ilgili sair mevzuat başta olmak üzere, Kurul tarafından alınan kararlar ve
 							ilgili düzenlemelere uygun olarak, Şirketimiz tarafından gerekli özen gösterilerek ve
 							gerekli tüm güvenlik önlemler alınarak gerçekleştirilecektir.
+							<br>
+							<br>
 						</li>
 						<li>
 							<strong>
@@ -561,12 +565,13 @@
 									hâlinde zararın giderilmesini talep etme, haklarına sahiptir.
 								</li>
 							</ul>
+							<br>
+							<br>
 						</li>
 						<li>
 							<strong>
 								KİŞİSEL VERİ SAHİBİNİN HAKLARI (Başvuru Hakkı):
 							</strong>
-							<br>
 							<br>
 							<br>
 							Kişisel Verileri Koruma Kanununun "ilgili kişinin haklarını düzenleyen" 11 inci maddesi
@@ -615,6 +620,7 @@
 							<br>
 							<br>
 							<strong>"ŞİRKET"</strong> tarafından bu konuda detaylı olarak bilgilendirildim.
+							<br>
 							<br>
 							<br>
 							<strong>
