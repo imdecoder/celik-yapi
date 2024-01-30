@@ -97,9 +97,7 @@
 					sonunda bulabilirsiniz.
 					<br>
 					<br>
-					<u>
-						Kişisel verilerinizin şirketimiz tarafından işlenme amaçları konusunda detaylı bilgilere;
-					</u>
+					<u>Kişisel verilerinizin şirketimiz tarafından işlenme amaçları konusunda detaylı bilgilere;</u>
 					<a href="{{ site_url('kvkk') }}" target="_blank">
 						<strong>
 							<u>Şirket Kişisel Verilerin Korunması ve İşlenmesi Politikasından ulaşabilirsiniz.</u>
