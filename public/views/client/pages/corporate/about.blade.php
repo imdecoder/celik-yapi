@@ -67,7 +67,7 @@
 						</h2>
 						<div class="about-desc">
 							<p>
-								Hızla gelişen teknoloji ile sınırsız insan ihtiyaçlarını karşılamak için 1995 yılında,
+								Hızla gelişen teknoloji ile sınırsız insan ihtiyaçlarını karşılamak için 2006 yılında,
 								yöneticisi olan <strong>Arif Çelik</strong> ve uzman personeli ile <strong>Çelik Yapı</strong> adı altında
 								Yapı Market sektörüne ilk adımını attılar. Binlerce çeşit ürünle müşterilerimizin ihtiyaçlarına
 								cevap verebilmek için mağazada dekoratif ürünlerden mobilya aksesuarlarına, inşaat ürünlerinden mutfak,
@@ -80,7 +80,7 @@
 								hizmet etmeyi benimseyen firmamız bu ilkelerinden hiçbir zaman ödün vermemiştir.
 								Sektördeki önceliğini yaptığı yatırımlar ve aldığı istikrarlı kararlarla sürdürmektedir.
 								<br>
-								1995 Yılından bu yana Yapı Aksesuarları konusunda hizmet vermekte olan <strong>Çelik Yapı</strong> artan müşteri
+								2006 Yılından bu yana Yapı Aksesuarları konusunda hizmet vermekte olan <strong>Çelik Yapı</strong> artan müşteri
 								talebine daha iyi hizmet verebilmek için gelişimine devam etmekdedir.
 							</p>
 							<p>

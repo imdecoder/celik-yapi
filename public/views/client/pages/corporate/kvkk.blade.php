@@ -8,6 +8,7 @@
 	<style type="text/css">
 		.corporate-page .content {
 			margin-top: 80px;
+			margin-bottom: 40px;
 		}
 
 		.corporate-page .content p {
@@ -61,13 +62,13 @@
 					</a>
 					<br>
 					<strong>VERİ SORUMLUSU:</strong>
-					Firma Adı
+					ÇELİK SIHHİ TESİSAT
 					<br>
 					<strong>ADRES:</strong>
 					19 Mayıs Mah. Ağabali Cad. No: 39/1, İlkadım/Samsun
 					<br>
 					<strong>VERGİ NO:</strong>
-					VERGİ DAİRESİ ADI / VERGİ NUMARASI
+					19 MAYIS V.D. / 2350046389
 				</p>
 				<br>
 				<p>
@@ -577,14 +578,14 @@
 							Kişisel Verileri Koruma Kanununun "ilgili kişinin haklarını düzenleyen" 11 inci maddesi
 							kapsamındaki taleplerinizi, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğe
 							göre veri sorumlusu olarak;
-							<strong>DOKUZ EYLÜL MAHALLESİ HAVA EĞİTİM YOLU SOKAK NO: 12 / GAZİEMİR, İZMİR</strong>
+							<strong>19 MAYIS MAH. AĞABALİ CAD. NO: 39/1, İLKADIM/SAMSUN</strong>
 							adresine, kişisel veri sahibi olan ilgili kişinin
-							<strong>http://www.caglayan-ahsap.com</strong> adresinde yer alan
+							<strong>https://celikyapimarket.com.tr</strong> adresinde yer alan
 							<strong>BAŞVURU FORMUNU</strong> doldurarak, formun imzalı bir nüshasını
 							şirket adresine kimliğinizi tespit edici belgeler ile bizzat elden iletebilir,
 							güvenli elektronik imza, mobil imza ya da şirketimize bildirdiğiniz ve şirketimiz
 							sisteminde kayıtlı bulunan elektronik posta adresini kullanmak suretiyle
-							<strong>caglayanyapi.market@hs02.kep.tr</strong> adresine elektronik posta göndererek,
+							<strong>celikyapimarket@hs02.kep.tr</strong> adresine elektronik posta göndererek,
 							yapacağınız şahsi başvuru ile, Noter vasıtasıyla yapacağınız başvuru veya
 							Kişisel Verileri Koruma Kurumunun belirlediği yöntemlerle iletebilirsiniz.
 							<br>
@@ -629,12 +630,12 @@
 							<br>
 							<br>
 							6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun ("ETK") kapsamında
-							Çelik Yapı (celikyapimarket.com.tr) tarafından yapılacak tüm elektronik
+							ÇELİK SIHHİ TESİSAT (celikyapimarket.com.tr) tarafından yapılacak tüm elektronik
 							iletişimlere onay veriyorum.
 							<br>
 							<br>
 							Tarafınızdan gönderilecek bilgilendirme ve kampanya e-postalarını,
-							SMS'lerini ve arama'larını almak istiyorum.
+							SMS'lerini ve aramalarını almak istiyorum.
 						</li>
 					</ol>
 				</p>
