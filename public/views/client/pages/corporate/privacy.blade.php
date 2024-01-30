@@ -20,6 +20,11 @@
 			padding: 5px 20px;
 		}
 
+		.corporate-page .content ul:first-child,
+		.corporate-page .content ol:first-child {
+			padding: 5px 0;
+		}
+
 		.corporate-page .content ul,
 		.corporate-page .content ol {
 			list-style: initial;
