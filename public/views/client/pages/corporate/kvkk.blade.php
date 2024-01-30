@@ -14,24 +14,25 @@
 			line-height: 28px;
 		}
 
-		.corporate-page .content p ul,
-		.corporate-page .content p ol {
+		.corporate-page .content ul,
+		.corporate-page .content ol {
 			padding: 5px 20px;
 		}
 
-		.corporate-page .content p ol {
-			list-style: inherit;
+		.corporate-page .content ul,
+		.corporate-page .content ol {
+			list-style: initial;
 		}
 
-		.corporate-page .content p li {
+		.corporate-page .content li {
 			margin-bottom: 10px;
 		}
 
-		.corporate-page .content p ul.list-circle li {
+		.corporate-page .content .list-circle li {
 			list-style: circle;
 		}
 
-		.corporate-page .content p ul.list-square li {
+		.corporate-page .content .list-square li {
 			list-style: square;
 		}
 	</style>
