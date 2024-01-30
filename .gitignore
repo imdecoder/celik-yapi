@@ -2,4 +2,4 @@
 composer.lock
 .env.php
 public/cache/*.php
-uploads
+/uploads

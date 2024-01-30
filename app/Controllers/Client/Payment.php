@@ -35,7 +35,7 @@ class Payment extends Client
 			'total' => null
 		];
 
-		$shipping_cost = 0; // TODO
+		$shipping_cost = 0; // TODO: Kargo ücreti geliştirilecek.
 
 		if ($this->cart)
 		{
@@ -295,7 +295,7 @@ class Payment extends Client
 		$this->data['meta']['title'] = 'Ödeme Başarılı';
 		$this->data['meta']['description'] = null;
 
-		if (!$_SERVER['HTTP_REFERER'])
+		if (!isset($_SERVER['HTTP_REFERER']))
 		{
 			header('Location: ' . site_url());
 			exit;
@@ -309,7 +309,7 @@ class Payment extends Client
 		$this->data['meta']['title'] = 'Başarısız Ödeme';
 		$this->data['meta']['description'] = null;
 
-		if (!$_SERVER['HTTP_REFERER'])
+		if (!isset($_SERVER['HTTP_REFERER']))
 		{
 			header('Location: ' . site_url());
 			exit;
