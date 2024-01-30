@@ -37,7 +37,7 @@ class Login extends Admin
 					WHERE
 						(status = 1 AND deleted_at IS NULL)
 						AND
-						(username = '{$username}' AND password = '{$password}')
+						(email = '{$username}' AND password = '{$password}')
 				";
 
 				$query = $this->db->query($sql)->fetch(PDO::FETCH_OBJ);
