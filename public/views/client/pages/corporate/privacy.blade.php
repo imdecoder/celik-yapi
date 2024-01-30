@@ -97,7 +97,7 @@
 					</u>
 					<a href="{{ site_url('kvkk') }}" target="_blank">
 						<strong>
-							Şirket Kişisel Verilerin Korunması ve İşlenmesi Politikasından  ulaşabilirsiniz.
+							<u>Şirket Kişisel Verilerin Korunması ve İşlenmesi Politikasından ulaşabilirsiniz.</u>
 						</strong>
 					</a>
 					<br>
