@@ -14,11 +14,16 @@
 			line-height: 28px;
 		}
 
-		.corporate-page .content p ul {
+		.corporate-page .content p ul,
+		.corporate-page .content p ol {
 			padding: 5px 20px;
 		}
 
-		.corporate-page .content p ul li {
+		.corporate-page .content p ol {
+			list-style: inherit;
+		}
+
+		.corporate-page .content p li {
 			margin-bottom: 10px;
 		}
 
@@ -102,6 +107,7 @@
 							<strong>
 								1. KİŞİSEL VERİLERİN TOPLANMASI, İŞLENMESİ VE İŞLENME AMAÇLARI:
 							</strong>
+							<br>
 							<br>
 							Kişisel Verilerin Korunması Kanunu ile ilgili mevzuat uyarınca toplanan kişisel verileriniz,
 							kanunda öngörülen ilkelere uygun olarak, tamamen veya kısmen, otomatik olarak veyahut
@@ -605,7 +611,6 @@
 							hangi amaçla aktarılabileceği, kişisel veri toplamanın yöntemi ve hukuki sebebi ve
 							Kanun'un 11. maddesinde yer alan haklarım konusunda hazırlanan işbu Aydınlatma Metnini okudum,
 							anladım ve veri sorumlusu sıfatına sahip,
-							<br>
 							<br>
 							<br>
 							<strong>"ŞİRKET"</strong> tarafından bu konuda detaylı olarak bilgilendirildim.
