@@ -14,7 +14,7 @@
 							<a href="{{ site_url('urun/' . $product->slug) }}">
 								<img src="{{ upload_url('images/cache/products/600x600/' . $product->image) }}" alt="{{ $product->name }}" width="300" height="300" class="img-responsive">
 							</a>
-							<div class="ribbon zoa-new">
+							<div class="ribbon zoa-discount">
 								<span>%20</span>
 							</div>
 							<div class="product-button-group" data-product="{{ $product->code }}">
