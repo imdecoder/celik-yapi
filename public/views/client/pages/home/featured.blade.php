@@ -15,7 +15,7 @@
 								<img src="{{ upload_url('images/cache/products/600x600/' . $product->image) }}" alt="{{ $product->name }}" width="300" height="300" class="img-responsive">
 							</a>
 							<div class="ribbon zoa-sale">
-								<span>%20 İndirim</span>
+								<span>%20</span>
 							</div>
 							<div class="product-button-group" data-product="{{ $product->code }}">
 								<a href="javascript:void(0)" class="zoa-btn zoa-wishlist">
