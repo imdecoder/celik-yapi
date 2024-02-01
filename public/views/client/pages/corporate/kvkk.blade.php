@@ -62,7 +62,7 @@
 					</a>
 					<br>
 					<strong>VERİ SORUMLUSU:</strong>
-					ÇELİK SIHHİ TESİSAT
+					ÇELİK TİCARET
 					<br>
 					<strong>ADRES:</strong>
 					19 Mayıs Mah. Ağabali Cad. No: 39/1, İlkadım/Samsun
@@ -585,7 +585,7 @@
 							şirket adresine kimliğinizi tespit edici belgeler ile bizzat elden iletebilir,
 							güvenli elektronik imza, mobil imza ya da şirketimize bildirdiğiniz ve şirketimiz
 							sisteminde kayıtlı bulunan elektronik posta adresini kullanmak suretiyle
-							<strong>celikyapimarket@hs02.kep.tr</strong> adresine elektronik posta göndererek,
+							<strong>arif.celik.1@hs01.kep.tr</strong> adresine elektronik posta göndererek,
 							yapacağınız şahsi başvuru ile, Noter vasıtasıyla yapacağınız başvuru veya
 							Kişisel Verileri Koruma Kurumunun belirlediği yöntemlerle iletebilirsiniz.
 							<br>
@@ -630,7 +630,7 @@
 							<br>
 							<br>
 							6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun ("ETK") kapsamında
-							ÇELİK SIHHİ TESİSAT (celikyapimarket.com.tr) tarafından yapılacak tüm elektronik
+							ÇELİK TİCARET (celikyapimarket.com.tr) tarafından yapılacak tüm elektronik
 							iletişimlere onay veriyorum.
 							<br>
 							<br>

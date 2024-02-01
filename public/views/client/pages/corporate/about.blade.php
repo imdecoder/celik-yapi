@@ -67,12 +67,12 @@
 						</h2>
 						<div class="about-desc">
 							<p>
-								Hızla gelişen teknoloji ile sınırsız insan ihtiyaçlarını karşılamak için 2006 yılında,
-								yöneticisi olan <strong>Arif Çelik</strong> ve uzman personeli ile <strong>ÇELİK SIHHİ TESİSAT</strong> adı altında
+								Hızla gelişen teknoloji ile sınırsız insan ihtiyaçlarını karşılamak için 1990 yılında,
+								yöneticisi olan <strong>Arif Çelik</strong> ve uzman personeli ile <strong>ÇELİK TİCARET</strong> adı altında
 								Yapı Market sektörüne ilk adımını attılar. Binlerce çeşit ürünle müşterilerimizin ihtiyaçlarına
 								cevap verebilmek için mağazada dekoratif ürünlerden mobilya aksesuarlarına, inşaat ürünlerinden mutfak,
 								banyo ve seramiğe, bahçe mobilyalarından aydınlatma ürünlerine, hazır perdeye, halıdan boyaya ve
-								parkeye kadar on binlerce ürün satmakta. 2006 yılından itibaren <strong>Çelik Yapı Market</strong> ünvanı ile
+								parkeye kadar on binlerce ürün satmakta. 1990 yılından itibaren <strong>Çelik Yapı Market</strong> ünvanı ile
 								tüm yapı ürünlerini kapsayacak şekilde ve ürün yelpazesini genişleterek	faaliyetlerini sürdürmektedir.
 							</p>
 							<p>
@@ -80,7 +80,7 @@
 								hizmet etmeyi benimseyen firmamız bu ilkelerinden hiçbir zaman ödün vermemiştir.
 								Sektördeki önceliğini yaptığı yatırımlar ve aldığı istikrarlı kararlarla sürdürmektedir.
 								<br>
-								2006 Yılından bu yana Yapı Aksesuarları konusunda hizmet vermekte olan <strong>Çelik Yapı</strong> artan müşteri
+								1990 Yılından bu yana Yapı Aksesuarları konusunda hizmet vermekte olan <strong>Çelik Yapı</strong> artan müşteri
 								talebine daha iyi hizmet verebilmek için gelişimine devam etmekdedir.
 							</p>
 							<p>
