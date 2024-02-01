@@ -1,4 +1,4 @@
-<div class="trend-product pad">
+<!--<div class="trend-product pad">
 	<div class="container container-content">
 		<div class="row first">
 			<div class="col-md-5 col-sm-6 col-xs-12">
@@ -24,12 +24,12 @@
 								<span>%15</span>
 							</div>
 
-							<!--<div class="ribbon zoa-hot">
+							<div class="ribbon zoa-hot">
 								<span>Trend</span>
 							</div>
 							<div class="ribbon zoa-new">
 								<span>Yeni</span>
-							</div>-->
+							</div>
 
 							<div class="product-button-group">
 								<a href="#" class="zoa-btn zoa-wishlist" title="Favorilere Ekle">
@@ -56,4 +56,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
