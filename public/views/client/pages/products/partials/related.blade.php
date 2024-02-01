@@ -15,6 +15,10 @@
 								<img src="{{ $product->image ? upload_url('images/cache/products/600x600/' . $product->image) : asset_url('client/img/default.jpg') }}" alt="{{ $product->name }}" width="210" height="210" class="img-responsive">
 							</a>
 
+							<div class="ribbon zoa-discount">
+								<span>%20</span>
+							</div>
+
 							<!--<div class="ribbon zoa-sale">
 								<span>%15</span>
 							</div>
