@@ -31,9 +31,11 @@
 								<a href="#">
 									<i class="fa fa-twitter"></i>
 								</a>
-								<a href="#">
+
+								<!--<a href="#">
 									<i class="fa fa-youtube"></i>
-								</a>
+								</a>-->
+
 							</div>
 						</div>
 					</div>

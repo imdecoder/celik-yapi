@@ -9,13 +9,16 @@
 					<h3>
 						Hızlı Gönderim
 					</h3>
+
 					<!--<p>
 						Açıklama yazısı gelecek
 					</p>-->
+
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-3 policy-item">
 				<div class="policy-icon">
+
 					<!-- TODO: Buradaki ikonu değiştir. -->
 					<img src="{{ asset_url('client/img/policy/icon_2.png') }}" alt="15 Gün İade Süresi">
 				</div>
@@ -23,9 +26,11 @@
 					<h3>
 						15 Gün İade Süresi
 					</h3>
+
 					<!--<p>
 						Açıklama yazısı gelecek
 					</p>-->
+
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-3 policy-item">
@@ -36,13 +41,16 @@
 					<h3>
 						Güvenli Ödeme
 					</h3>
+
 					<!--<p>
 						Açıklama yazısı gelecek
 					</p>-->
+
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-3 policy-item">
 				<div class="policy-icon">
+
 					<!-- TODO: Buradaki ikonu değiştir. -->
 					<img src="{{ asset_url('client/img/policy/icon_4.png') }}" alt="Sipariş Takibi">
 				</div>
@@ -50,9 +58,11 @@
 					<h3>
 						Sipariş Takibi
 					</h3>
+
 					<!--<p>
 						Açıklama yazısı gelecek
 					</p>-->
+
 				</div>
 			</div>
 		</div>

@@ -12,9 +12,11 @@
 					<a href="#">
 						<i class="fa fa-twitter"></i>
 					</a>
-					<a href="#">
+					
+					<!--<a href="#">
 						<i class="fa fa-youtube"></i>
-					</a>
+					</a>-->
+
 				</div>
 			</div>
 			<div class="text-center">
@@ -22,6 +24,8 @@
 					&copy; {{ date('Y') }} Çelik Yapı Market
 				</p>
 			</div>
+
+			<!-- TODO: Burayı düzelt (3D Secure ekle!) -->
 			<div class="f-col">
 				<img src="{{ asset_url('client/img/credit-card-icons.png') }}" alt="Ödeme Yöntemleri" class="img-responsive">
 			</div>
