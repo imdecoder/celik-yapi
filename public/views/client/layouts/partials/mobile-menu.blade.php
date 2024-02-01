@@ -26,18 +26,30 @@
 				<span class="icon-sub-menu"></span>
 				<div class="menu-level1 js-open-menu">
 					<ul class="level1">
-						<li class="level2">
-							<a href="{{ site_url('kategoriler') }}">
-								Kategoriler
-							</a>
-							<ul class="menu-level-2">
-								<li class="level3">
-									<a href="#">
-										Kategori Adı
-									</a>
-								</li>
-							</ul>
-						</li>
+
+						@if ($mobile_categories)
+
+							<li class="level2">
+								<a href="{{ site_url('kategoriler') }}">
+									Kategoriler
+								</a>
+								<ul class="menu-level-2">
+
+									@foreach ($mobile_categories as $category)
+										
+										<li class="level3">
+											<a href="{{ site_url('kategori/' . $category->slug) }}">
+												{{ $category->name }}
+											</a>
+										</li>
+
+									@endforeach
+
+								</ul>
+							</li>
+
+						@endif
+
 						<li class="level2">
 							<a href="{{ site_url('trend-urunler') }}">
 								Trend Ürünler

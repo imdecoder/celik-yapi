@@ -19,6 +19,8 @@ class Client extends Controller
 		$this->data['navbar_categories'] = $this->navbar_categories();
 		$this->data['trend_products'] = $this->trend_products();
 
+		$this->data['mobile_categories'] = $this->mobile_categories();
+
 		$this->data['cart_products'] = $this->cart_products();
 
 		//unset($_SESSION['cart']);
@@ -116,6 +118,33 @@ class Client extends Controller
 				name ASC,
 				id DESC
 			LIMIT 5
+		";
+
+		$query = $this->db->query($sql, PDO::FETCH_OBJ);
+
+		if ($query->rowCount())
+		{
+			$data = $query;
+		}
+
+		return $data;
+	}
+
+	public function mobile_categories()
+	{
+		$data = [];
+
+		$sql = "
+			SELECT
+				name,
+				slug
+			FROM product_categories
+			WHERE
+				status = 1 AND deleted_at IS NULL
+			ORDER BY
+				priorty ASC,
+				name ASC,
+				id DESC
 		";
 
 		$query = $this->db->query($sql, PDO::FETCH_OBJ);
