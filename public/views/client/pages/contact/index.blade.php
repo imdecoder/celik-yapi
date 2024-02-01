@@ -84,8 +84,8 @@
 						İletişim
 					</h3>
 					<p>
-						<a href="tel:+905426715320">
-							<span>+90 542 671 53 20</span>
+						<a href="https://api.whatsapp.com/send?phone=+903624324834" target="_blank">
+							<span>+90 362 432 48 34</span>
 						</a>
 					</p>
 				</div>
@@ -102,7 +102,7 @@
 						Çalışma
 					</h3>
 					<p>
-						Pzt-Cmt: 09:00 - 18:30
+						Pzt-Cmt: 09:00 - 18:00
 					</p>
 				</div>
 			</div>

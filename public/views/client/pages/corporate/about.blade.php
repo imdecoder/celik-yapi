@@ -38,8 +38,8 @@
 								</a>
 							</p>
 							<p>
-								<a href="tel:+905426715320">
-									+90 542 671 53 20
+								<a href="https://api.whatsapp.com/send?phone=+903624324834" target="_blank">
+									+90 362 432 48 34
 								</a>
 							</p>
 						</div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr"> <!-- TODO: Language attribute -->
+<html lang="tr">
 <head>
 
 	@include('client.layouts.partials.tags')
