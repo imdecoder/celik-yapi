@@ -1,4 +1,4 @@
-<div class="single-banner">
+<!--<div class="single-banner">
 	<div class="container container-content">
 		<div class="banner-img hover-images">
 			<img src="{{ asset_url('client/img/home1/home-1-bg.png') }}" alt="İndirim" class="img-responsive">
@@ -17,4 +17,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
